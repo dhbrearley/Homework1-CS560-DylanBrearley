@@ -2,6 +2,8 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
 
+##### !!! HELPFUL COMMENTS ARE IN RECTANGLE.PY, PROGRAM FOLLOWS SAME FLOW #####
+
 class TurtleController(Node):
     def __init__(self):
         super().__init__('turtle_controller')
@@ -27,7 +29,7 @@ class TurtleController(Node):
         elif self.time >= 8 and self.time < 11:
             msg = self.create_twist(0.0, 1.43)
         elif self.time >= 11 and self.time < 17:
-            msg = self.create_twist(1.2, 0.0)
+            msg = self.create_twist(1.15, 0.0)
         elif self.time >= 17 and self.time < 20:
             msg = self.create_twist(0.0, 1.5)
         elif self.time >= 20 and self.time < 23:
@@ -44,6 +46,8 @@ class TurtleController(Node):
 
 def main(args=None):
     rclpy.init(args=args)
+
+    i = 0
 
     turtle_controller = TurtleController()
 

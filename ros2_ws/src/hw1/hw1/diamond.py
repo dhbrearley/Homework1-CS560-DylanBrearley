@@ -1,6 +1,8 @@
-import rclpy
-from rclpy.node import Node
-from geometry_msgs.msg import Twist
+import rclpy # ros2 library for python
+from rclpy.node import Node # turtle controller will be an instance of Node
+from geometry_msgs.msg import Twist # library that sends messages to robot, controls velocity and rotation
+
+##### !!! HELPFUL COMMENTS ARE IN RECTANGLE.PY, PROGRAM FOLLOWS SAME FLOW #####
 
 class TurtleController(Node):
     def __init__(self):

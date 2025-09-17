@@ -2,6 +2,8 @@ import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
 
+##### !!! HELPFUL COMMENTS ARE IN RECTANGLE.PY, PROGRAM FOLLOWS SAME FLOW #####
+
 class TurtleController(Node):
     def __init__(self):
         super().__init__('turtle_controller')
