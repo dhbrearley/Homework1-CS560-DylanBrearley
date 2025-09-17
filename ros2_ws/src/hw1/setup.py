@@ -21,7 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'diamond = hw1.diamond:main',
-            'square = hw1.squire:main',
+            'rectangle = hw1.rectangle:main',
             'circle = hw1.circle:main',
             'random = hw1.random:main',
         ],

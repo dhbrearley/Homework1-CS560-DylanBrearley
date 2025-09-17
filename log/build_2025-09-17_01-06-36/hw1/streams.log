@@ -1,0 +1,20 @@
+[2.769s] Invoking command in '/home/dylan/ros/Homework1-CS560-DylanBrearley/build/hw1': PYTHONPATH=/home/dylan/ros/Homework1-CS560-DylanBrearley/build/hw1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dylan/ros/Homework1-CS560-DylanBrearley/install/hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dylan/ros/Homework1-CS560-DylanBrearley/build/hw1/build --no-deps symlink_data
+[3.979s] running develop
+[4.780s] running egg_info
+[4.781s] writing hw1.egg-info/PKG-INFO
+[4.782s] writing dependency_links to hw1.egg-info/dependency_links.txt
+[4.783s] writing entry points to hw1.egg-info/entry_points.txt
+[4.783s] writing requirements to hw1.egg-info/requires.txt
+[4.784s] writing top-level names to hw1.egg-info/top_level.txt
+[4.792s] reading manifest file 'hw1.egg-info/SOURCES.txt'
+[4.795s] writing manifest file 'hw1.egg-info/SOURCES.txt'
+[4.801s] running build_ext
+[4.802s] Creating /home/dylan/ros/Homework1-CS560-DylanBrearley/install/hw1/lib/python3.10/site-packages/hw1.egg-link (link to .)
+[4.806s] Installing circle script to /home/dylan/ros/Homework1-CS560-DylanBrearley/install/hw1/lib/hw1
+[4.807s] Installing diamond script to /home/dylan/ros/Homework1-CS560-DylanBrearley/install/hw1/lib/hw1
+[4.808s] Installing random script to /home/dylan/ros/Homework1-CS560-DylanBrearley/install/hw1/lib/hw1
+[4.808s] Installing rectangle script to /home/dylan/ros/Homework1-CS560-DylanBrearley/install/hw1/lib/hw1
+[4.810s] 
+[4.810s] Installed /home/dylan/ros/Homework1-CS560-DylanBrearley/build/hw1
+[4.811s] running symlink_data
+[4.949s] Invoked command in '/home/dylan/ros/Homework1-CS560-DylanBrearley/build/hw1' returned '0': PYTHONPATH=/home/dylan/ros/Homework1-CS560-DylanBrearley/build/hw1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dylan/ros/Homework1-CS560-DylanBrearley/install/hw1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dylan/ros/Homework1-CS560-DylanBrearley/build/hw1/build --no-deps symlink_data
